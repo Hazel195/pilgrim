@@ -1,15 +1,17 @@
 /* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
 
 :root {
-  --color-primary: #94d7f2;
-  --color-secondary: #8bd9d9;
+  --color-primary: #8bd9d9;
+  --color-secondary: #94d7f2;
   --color-tertiary: #c2bcb6;
-  --color-primary-darker: #6cbad9;
-  --color-secondary-darker: #73bfbf;
+  --color-primary-darker: #73bfbf;
+  --color-secondary-darker: #82c8e4;
   --color-tertiary-darker: #a8a199;
-  --color-primary-opacity: #5ec5763a;
+  --color-primary-opacity: #4c7281;
   --color-secondary-opacity: #ffcd0331;
   --color-tertiary-opacity: #ff58602d;
+  --gradient-primary: linear-gradient(to top left, #94d7f2, #8bd9d9);
+  --gradient-secondary: linear-gradient(to top left, #6cbad9, #73bfbf);
 }
 
 * {
@@ -249,7 +251,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-primary-opacity);
+  background-color: var(--color-secondary-darker);
   height: 5.5rem;
   width: 5.5rem;
   border-radius: 50%;
@@ -259,7 +261,7 @@ h4 {
 .features__icon svg {
   height: 2.5rem;
   width: 2.5rem;
-  fill: var(--color-primary);
+  fill: white;
 }
 
 .features__header {
