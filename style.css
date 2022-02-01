@@ -73,7 +73,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   border: none;
-  padding: 1.25rem 4.5rem;
+  padding: 1rem 4.5rem;
   border-radius: 10rem;
   cursor: pointer;
   transition: all 0.3s;
@@ -92,7 +92,7 @@ body {
   color: var(--color-primary);
   border: none;
   border-bottom: 1px solid currentColor;
-  padding-bottom: 2px;
+  padding-bottom: 0px;
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -158,7 +158,7 @@ img {
 
 .nav__link--btn:link,
 .nav__link--btn:visited {
-  padding: 0.8rem 2.5rem;
+  padding: 0.2rem 2.4rem;
   border-radius: 3rem;
   background-color: var(--color-primary);
   color: #222;
@@ -288,7 +288,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-secondary-darker);
+  background-color: var(--color-primary-darker);
   height: 5.5rem;
   width: 5.5rem;
   border-radius: 50%;
@@ -703,9 +703,39 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 100%;
+  width: 120%;
   background-color: white;
   color: #bbb;
   font-size: 1.5rem;
   font-weight: 400;
+  padding: 0.7rem;
+}
+
+.btn-cookie-message {
+  display: inline-block;
+  background-color: var(--color-primary);
+  font-size: 1.6rem;
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-up {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90%;
+  left: 92%;
+  background-color: var(--color-secondary);
+  font-size: 1.6rem;
+  font-family: inherit;
+  font-weight: 400;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: all 0.3s;
 }
